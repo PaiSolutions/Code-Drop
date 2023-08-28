@@ -1,3 +1,2 @@
-#Test 1
-
-[Link to another page](./posts/another-page.md).
+## OSD Cloud Cleanup
+Clean up the leftover folder from a OSD Cloud Windows image build. This code can be run from [Intune/Script](./posts/osdCleanup.md).
