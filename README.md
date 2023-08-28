@@ -1,3 +1,1 @@
-## OSD Cloud Cleanup
-Clean up the leftover folder from a OSD Cloud Windows image build. This code can be run from [Intune/Scripts](./posts/osdCleanup.md).
-
+This is a site to post PowerShell Code i have found and created. 
