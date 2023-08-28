@@ -1,3 +1,3 @@
 #Test 1
 
-[Link to another page](./post/another-page.md).
+[Link to another page](./posts/another-page.md).
