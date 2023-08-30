@@ -8,33 +8,30 @@ description: Sample my PowerShell Learning
 This is a script that you can use in a Intune package to allow self deploying Outlook Desktop Signatures for your users. This works though MSGraph, Enterprise Application and Powershell. Please follow this guide
 to setup everything to allow you to deploy this.
 ### Creating an Outlook Desktop Signature
-#### 2. Access Signature Settings
+#### 1. Access Signature Settings
 
 1. Click on the **"File"** tab in the top-left corner of the Outlook window.
 2. Select **"Options"** from the sidebar.
 
-#### 3. Open Signature Options
+#### 2. Open Signature Options
 
 1. In the Outlook Options window, select **"Mail"** from the left-hand sidebar.
 2. Scroll down to the **"Create or modify signatures for messages"** section.
 3. Click on the **"Signatures..."** button.
 
-#### 4. Create a New Signature
+#### 3. Create a New Signature
 
 1. In the Signatures and Stationery window, click on the **"New"** button under the **"Select signature to edit"** section.
-2. Give your signature a **"Name"** to help identify it (e.g., "Personal Signature" or "Work Signature").
+2. Give your signature a **"Name"** to help identify it (e.g., "Template Signature's").
 
-#### 5. Edit Signature Text
+#### 4. Edit Signature Text
 
 1. In the **"Edit signature"** section, use the text editor to create your signature. You can include the following elements:
-   - **Name**: Your full name.
-   - **Title**: Your job title.
-   - **Contact Information**: Phone number, email address, website, etc.
-   - **Company Logo**: If desired, you can insert your company's logo or an image.
+   - **Name**: %DisplayName%
+   - **Title**: %JobTitle%, %Department%
+   - **Contact Information**: %Mobile%, %businessPhones%, %Mail%
+   - **Company Information**: %officeLocation%, %StreetAddress%, %City%, %PostalCode%
    - **Social Media Links**: Links to your social media profiles.
-   - **Quotes or Taglines**: Personalized quotes or taglines.
-
-
 
 #### 6. Format and Style
 
