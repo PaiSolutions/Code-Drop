@@ -3,8 +3,8 @@ title: Code Drop
 ---
 
 ## Intune Package - Outlook Signature Templates
-This is a small project i have been working on with MSGraph, Azure Enterprise Apps. When deployed to a user, the script will lget the current user and do a MSGraph request to get there Azure AD details to be used for Outlook Signauters. 
-Click here to read this
+This is a small project i have been working on with MSGraph, Azure Enterprise Apps. When deployed to a user, the script will lget the current user and do a MSGraph request to get there Azure AD details to be used for Outlook Signauters.  
+[Click here to read this](posts/Outlook-Signatures.md)
 
 ## Script - OSD Cloud Cleanup
 Here goes a bit of code to clean up a OSD Cloud Windows Build. This code will scan the users C:\ For 2 Folders and remove them.
