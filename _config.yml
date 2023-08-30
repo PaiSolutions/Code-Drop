@@ -1,8 +1,4 @@
 title: Code Drop
-author:
-  name: Stephen Waikari
-  email: stephen.waikari@paisolutions.co.nz
-  
 description: Somewhere to dump PowerShell Code.
 
 theme: minima
@@ -46,4 +42,4 @@ minima:
 
 # Set to `true` to show excerpts on the homepage.
 #
- show_excerpts: false
+# show_excerpts: false
