@@ -8,11 +8,6 @@ to setup everything to allow you to deploy this.
 ### Setup - Setting Up an Azure Enterprise Application for Microsoft Graph Access
 This is setup is to allow you to setup a Entprise App with MSGraph API Access for you script. For this access we only need Read.User access for MSGraph. This will allow the script to look up your logged on user and pull down there information to be used on the Outlook desktop signature. 
 
-### Prerequisites
-
-- Azure subscription
-- Azure Active Directory (Azure AD) tenant
-
 ### Steps
 
 #### 1. Sign in to the Azure Portal
@@ -61,10 +56,3 @@ If your application requires redirect URIs for OAuth 2.0 authorization flows:
 3. Provide a description, choose an expiration option, and click the "Add" button.
 4. **Note**: The secret value will be displayed once. Make sure to copy it and store it securely.
 
-#### 8. Start Using Microsoft Graph
-
-With the necessary configurations in place, you can now use the Microsoft Graph API in your application by including the application and directory IDs along with the client secret (or other authentication methods).
-
-Remember to consult the official [Microsoft Graph documentation](https://docs.microsoft.com/graph/) for detailed information on available endpoints, data, and authentication flows.
-
-That's it! You've successfully set up an Azure Enterprise Application for Microsoft Graph access. Make sure to follow security best practices and manage permissions carefully to ensure the security of your application and data.
