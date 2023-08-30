@@ -10,6 +10,7 @@ This is a script that you can use in a Intune package to allow self deploying Ou
 to setup everything to allow you to deploy this.
 
 ### Creating an Outlook Desktop Signature
+
 #### 1. Access Signature Settings
 
 1. Click on the **"File"** tab in the top-left corner of the Outlook window.
