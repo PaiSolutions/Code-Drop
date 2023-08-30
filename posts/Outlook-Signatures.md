@@ -59,3 +59,7 @@ If your application requires redirect URIs for OAuth 2.0 authorization flows:
 3. Provide a description, choose an expiration option, and click the "Add" button.
 4. **Note**: The secret value will be displayed once. Make sure to copy it and store it securely.
 
+### PowerShell Code
+Here we will edit my code to help you with your
+
+
