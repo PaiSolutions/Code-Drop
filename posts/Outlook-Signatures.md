@@ -7,6 +7,41 @@ description: Sample my PowerShell Learning
 ## What to know
 This is a script that you can use in a Intune package to allow self deploying Outlook Desktop Signatures for your users. This works though MSGraph, Enterprise Application and Powershell. Please follow this guide
 to setup everything to allow you to deploy this.
+### Creating an Outlook Desktop Signature
+#### 2. Access Signature Settings
+
+1. Click on the **"File"** tab in the top-left corner of the Outlook window.
+2. Select **"Options"** from the sidebar.
+
+#### 3. Open Signature Options
+
+1. In the Outlook Options window, select **"Mail"** from the left-hand sidebar.
+2. Scroll down to the **"Create or modify signatures for messages"** section.
+3. Click on the **"Signatures..."** button.
+
+#### 4. Create a New Signature
+
+1. In the Signatures and Stationery window, click on the **"New"** button under the **"Select signature to edit"** section.
+2. Give your signature a **"Name"** to help identify it (e.g., "Personal Signature" or "Work Signature").
+
+#### 5. Edit Signature Text
+
+1. In the **"Edit signature"** section, use the text editor to create your signature. You can include the following elements:
+   - **Name**: Your full name.
+   - **Title**: Your job title.
+   - **Contact Information**: Phone number, email address, website, etc.
+   - **Company Logo**: If desired, you can insert your company's logo or an image.
+   - **Social Media Links**: Links to your social media profiles.
+   - **Quotes or Taglines**: Personalized quotes or taglines.
+
+
+
+#### 6. Format and Style
+
+Use the formatting tools to style your signature:
+   - **Font**: Choose a font, size, color, etc.
+   - **Alignment**: Left, center, or right alignment.
+   - **Hyperlinks**: Format URLs to appear as clickable links.
 
 ### Setting Up an Azure Enterprise Application for MSGraph Access & Secure Key
 This is setup is to allow you to setup a Entprise App with MSGraph API Access for you script. For this access we only need Read.User access for MSGraph. This will allow the script to look up your logged on user and pull down there information to be used on the Outlook desktop signature. 
