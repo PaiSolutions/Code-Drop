@@ -9,7 +9,7 @@ description: Sample my PowerShell Learning
 This is a script that you can use in a Intune package to allow self deploying Outlook Desktop Signatures for your users. This works though MSGraph, Enterprise Application and Powershell. Please follow this guide
 to setup everything to allow you to deploy this.
 
-### Setup - Setting Up an Azure Enterprise Application for Microsoft Graph Access & Secure Key
+### Setting Up an Azure Enterprise Application for Microsoft Graph Access & Secure Key
 This is setup is to allow you to setup a Entprise App with MSGraph API Access for you script. For this access we only need Read.User access for MSGraph. This will allow the script to look up your logged on user and pull down there information to be used on the Outlook desktop signature. 
 
 #### 1. Sign in to the Azure Portal
