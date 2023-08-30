@@ -13,29 +13,29 @@ This is setup is to allow you to setup a Entprise App with MSGraph API Access fo
 
 #### 1. Sign in to the Azure Portal
 
-> 1. Open your browser and navigate to the [Azure Portal](https://portal.azure.com/).
-> 2. Sign in using your Azure account credentials.
+   1. Open your browser and navigate to the [Azure Portal](https://portal.azure.com/).
+   2. Sign in using your Azure account credentials.
 
 #### 2. Create an Enterprise Application
 
-    1. In the Azure Portal, navigate to "Azure Active Directory" from the left-hand menu.
-    2. Under the "Manage" section, click on "Enterprise applications."
-    3. Click the "+ New application" button and select "All" from the options.
-    4. Choose the "Non-gallery application" option.
-    5. Provide a name for your application and click the "Add" button.
+1. In the Azure Portal, navigate to "Azure Active Directory" from the left-hand menu.
+2. Under the "Manage" section, click on "Enterprise applications."
+3. Click the "+ New application" button and select "All" from the options.
+4. Choose the "Non-gallery application" option.
+5. Provide a name for your application and click the "Add" button.
 
 #### 3. Configure Application Properties
 
-    1. In the application overview page, go to the "Single sign-on" section.
-    2. Depending on your authentication requirements, configure the appropriate single sign-on method (e.g., SAML-based, Password-based, etc.).
+1. In the application overview page, go to the "Single sign-on" section.
+2. Depending on your authentication requirements, configure the appropriate single sign-on method (e.g., SAML-based, Password-based, etc.).
 
 #### 4. Grant API Permissions
 
-   1. In the application overview page, go to the "API permissions" section.
-   2. Click on the "+ Add a permission" button.
-   3. Choose "Microsoft Graph" from the APIs list.
-   4. Select the required permissions that your application needs. For example, if you need to read user profiles, select the "User.Read" permission.
-   5. Click the "Add permissions" button to save your selections.
+1. In the application overview page, go to the "API permissions" section.
+2. Click on the "+ Add a permission" button.
+3. Choose "Microsoft Graph" from the APIs list.
+4. Select the required permissions that your application needs. For example, if you need to read user profiles, select the "User.Read" permission.
+5. Click the "Add permissions" button to save your selections.
 
 #### 5. Configure Redirect URIs (if applicable)
 
