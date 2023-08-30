@@ -1,7 +1,3 @@
----
-title: Code Drop
-description: Sample my PowerShell Learning
----
 # **Outlook Signautres**  
 
 ## What to know
