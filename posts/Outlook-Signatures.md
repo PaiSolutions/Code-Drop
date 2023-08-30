@@ -13,8 +13,8 @@ This is setup is to allow you to setup a Entprise App with MSGraph API Access fo
 
 #### 1. Sign in to the Azure Portal
 
-   1. Open your browser and navigate to the [Azure Portal](https://portal.azure.com/).
-   2. Sign in using your Azure account credentials.
+1. Open your browser and navigate to the [Azure Portal](https://portal.azure.com/).
+2. Sign in using your Azure account credentials.
 
 #### 2. Create an Enterprise Application
 
