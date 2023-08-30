@@ -8,6 +8,7 @@ layout: default
 ## What to know
 This is a script that you can use in a Intune package to allow self deploying Outlook Desktop Signatures for your users. This works though MSGraph, Enterprise Application and Powershell. Please follow this guide
 to setup everything to allow you to deploy this.
+
 ### Creating an Outlook Desktop Signature
 #### 1. Access Signature Settings
 
