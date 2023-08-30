@@ -1,6 +1,3 @@
----
-title: Code Drop
----
 
 ## Intune Package - Outlook Signature Templates
 This is a small project i have been working on with MSGraph, Azure Enterprise Apps. When deployed to a user, the script will lget the current user and do a MSGraph request to get there Azure AD details to be used for Outlook Signauters.  
